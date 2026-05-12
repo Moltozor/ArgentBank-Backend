@@ -150,7 +150,7 @@ paths:
   /accounts/{accountId}/transactions/{transactionId}:
     put:
       summary: Update a specific transaction
-      description: Updates the description of a specific transaction linked to the given account.
+      description: Updates the description of category or note in a transaction linked to the given account.
       tags:
         - User Module
       produces:
